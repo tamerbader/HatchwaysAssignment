@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1655018641370" clover="3.2.0">
+  <project timestamp="1655018641370" name="All files">
+    <metrics statements="100" coveredstatements="98" conditionals="34" coveredconditionals="33" methods="16" coveredmethods="15" elements="150" coveredelements="146" complexity="0" loc="100" ncloc="100" packages="5" files="8" classes="8"/>
+    <package name="Hatchways">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="server.js" path="/Users/tbader/Snapchat/Dev/Hatchways/server.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Hatchways.middleware">
+      <metrics statements="31" coveredstatements="31" conditionals="22" coveredconditionals="21" methods="4" coveredmethods="4"/>
+      <file name="validateRequest.js" path="/Users/tbader/Snapchat/Dev/Hatchways/middleware/validateRequest.js">
+        <metrics statements="31" coveredstatements="31" conditionals="22" coveredconditionals="21" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="4" type="cond" truecount="4" falsecount="1"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="65" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Hatchways.models">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="directionFields.js" path="/Users/tbader/Snapchat/Dev/Hatchways/models/directionFields.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="sortByFields.js" path="/Users/tbader/Snapchat/Dev/Hatchways/models/sortByFields.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Hatchways.routes">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ping.js" path="/Users/tbader/Snapchat/Dev/Hatchways/routes/ping.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="posts.js" path="/Users/tbader/Snapchat/Dev/Hatchways/routes/posts.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Hatchways.services">
+      <metrics statements="37" coveredstatements="35" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8"/>
+      <file name="fetchPosts.js" path="/Users/tbader/Snapchat/Dev/Hatchways/services/fetchPosts.js">
+        <metrics statements="26" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="34" count="9" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="36" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="41" count="93" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="92" type="stmt"/>
+        <line num="43" count="92" type="stmt"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="48" count="9" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+      </file>
+      <file name="sortPosts.js" path="/Users/tbader/Snapchat/Dev/Hatchways/services/sortPosts.js">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="176" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="142" type="stmt"/>
+        <line num="13" count="34" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

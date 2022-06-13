@@ -1,0 +1,29 @@
+{
+  "name": "hatchways",
+  "version": "1.0.0",
+  "description": "Blog API",
+  "main": "server.js",
+  "scripts": {
+    "nodemon": "nodemon server.js",
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Ivana Wakidi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
